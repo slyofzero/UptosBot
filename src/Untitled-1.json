@@ -1,0 +1,80 @@
+[
+  {
+    "type": "0x1::account::Account",
+    "data": {
+      "authentication_key": "0x099202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+      "coin_register_events": {
+        "counter": "2",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "0"
+          }
+        }
+      },
+      "guid_creation_num": "6",
+      "key_rotation_events": {
+        "counter": "0",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "1"
+          }
+        }
+      },
+      "rotation_capability_offer": { "for": { "vec": [] } },
+      "sequence_number": "5",
+      "signer_capability_offer": { "for": { "vec": [] } }
+    }
+  },
+  {
+    "type": "0x1::coin::CoinStore<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT>",
+    "data": {
+      "coin": { "value": "1026994" },
+      "deposit_events": {
+        "counter": "1",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "4"
+          }
+        }
+      },
+      "frozen": false,
+      "withdraw_events": {
+        "counter": "0",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "5"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "0x1::coin::CoinStore<0x1::aptos_coin::AptosCoin>",
+    "data": {
+      "coin": { "value": "93443900" },
+      "deposit_events": {
+        "counter": "1",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "2"
+          }
+        }
+      },
+      "frozen": false,
+      "withdraw_events": {
+        "counter": "1",
+        "guid": {
+          "id": {
+            "addr": "0x99202e99f1819319a5247718c8564ca7adff110f96b4eea7d57a58c84466c1c",
+            "creation_num": "3"
+          }
+        }
+      }
+    }
+  }
+]
